@@ -2,7 +2,12 @@
 AI Teacher Shared - Utilities and validators for AI Teacher microservices
 """
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
+
+from .maps import (
+    get_timit_to_mfa_map,
+    get_mfa_to_timit_map,
+)
 
 from .utils import (
     UPLOAD_DIR,
@@ -21,6 +26,9 @@ from .validators import (
 )
 
 __all__ = [
+    # Maps
+    "get_timit_to_mfa_map",
+    "get_mfa_to_timit_map",
     # Constants
     "UPLOAD_DIR",
     "OUTPUT_DIR",
