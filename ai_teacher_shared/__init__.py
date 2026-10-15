@@ -2,7 +2,7 @@
 AI Teacher Shared - Utilities and validators for AI Teacher microservices
 """
 
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 
 from .maps import (
     get_timit_to_mfa_map,
